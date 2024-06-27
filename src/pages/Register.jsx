@@ -29,7 +29,7 @@ setPassword(e.target.value)
 
 <img src='/images/SignIn.jpg' className=' mt-[4rem] w-[40rem]' />
 <div className=''>
-<h1 className='font-semibold my-[2rem] text-[1.5rem]'>REGISTER</h1>   
+<h1 className='font-semibold my-[2rem] text-24'>REGISTER</h1>   
 
 <input required type='text'  className='border border-gray-500 w-96 px-2 py-2 rounded-md mb-8 ' placeholder='Please enter your username' />
 <input required type='email' className='border border-gray-500 w-96 px-2 py-2 rounded-md mb-8 ' placeholder='Please enter your Email' />
@@ -42,7 +42,7 @@ setPassword(e.target.value)
 </div>
 <div>
 <input required type='password'        value={confirmPassword}
-          onChange={handleConfirmPassowrd}  className='border border-gray-500 w-96 px-2 py-2 rounded-md mb-8  ' placeholder='Please enter your Password' /> </div>
+          onChange={handleConfirmPassowrd}  className='border border-gray-500 w-96 px-2 py-2 rounded-md mb-8  ' placeholder='Please confirm your Password' /> </div>
           <div>
 
 <input required type='checkbox' />
