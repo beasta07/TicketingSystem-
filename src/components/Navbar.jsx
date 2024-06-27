@@ -20,7 +20,7 @@ const Navbar = () => {
             placeholder='Search'
             className='bg-white focus:outline-none text-black ml-2 w-32 h-4 font-normal'
           />
-        </div>
+        </div >
         <CiChat1 className='text-black text-[1.85rem] mt-1' />
         <IoIosNotificationsOutline className='text-black text-[1.85rem] mt-1' />
         <CiUser className='text-black text-[1.85rem] mt-1' />
@@ -29,8 +29,9 @@ const Navbar = () => {
     <hr className='border-t border-gray-300 mx-auto mt-1 opacity-50' />
     <div className='bg-[#F5F7F9] py-5 flex gap-10 p-4'>
       <div className='flex gap-4'>
-        <p>All Products</p>
-        <MdKeyboardArrowDown className='mt-2' />
+        <p>Accounts</p>
+        <MdKeyboardArrowDown className='mt-2' />    
+
       </div>
       <div className='flex gap-4'>
         <p>All Groups</p>

@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import { MdOutlineMailOutline } from "react-icons/md";
-// import { MdCheckBoxOutlineBlank } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
 import { CiUser } from "react-icons/ci";
 import { MdOutlineAssignment } from "react-icons/md";
 import { TbUrgent } from "react-icons/tb";
+
 const AdminTicket = () => {
   const [urgency, setUrgency] = useState('Urgent');
   const [status, setStatus] = useState('Open');
@@ -28,7 +28,9 @@ const AdminTicket = () => {
                 <input type='checkbox' />
                 <img src='/images/user1.jpeg' className='rounded-2xl px-4 w-20 h-12 my-auto' />
                 <div className='mx-4'>
-                  <div className='border border-red-300 rounded-lg text-[red] bg-[#FFECF0] w-24 my-2 px-3'>Overdue</div>
+                  <div className=''>
+                    <h1 className='border border-red-300 rounded-lg text-[red] bg-[#FFECF0] inline-block mx-2 my-2 px-3'>{urgency}</h1>
+                  </div>
                   <p className='font-semibold text-sm'>Test Email: Need account statement #3</p>
                   <div className='flex gap-8'>
                     <div className='flex gap-2'>
@@ -87,7 +89,7 @@ const AdminTicket = () => {
                 <input type='checkbox' />
                 <img src='/images/user2.jpg' className='rounded-2xl px-4 w-20 h-12 my-auto' />
                 <div className='mx-4'>
-                  <div className='border border-red-300 rounded-lg text-red bg-[#FFECF0] text-[red] w-40 my-2 px-3'>First response due</div>
+                  <div className='border border-red-300 rounded-lg text-red bg-[#FFECF0] text-[red] inline-block my-2 px-3'>{urgency}</div>
                   <p className='font-semibold text-sm'>Test Email: Need account statement #3</p>
                   <div className='flex gap-8'>
                     <div className='flex gap-2'>

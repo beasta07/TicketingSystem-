@@ -12,35 +12,35 @@ const Sidebar = () => {
     <div className='h-[43rem] bg-[#12344D]'>
            <div className='w-16 h-full bg-[#12344D]  ' >
         <div className='bg-[#0E2A3E] p-4'>
-            <FaRegCircleUser className='text-white text-[1.5rem]'/>
+            <FaRegCircleUser className='text-white text-2xl ' title="This is a description on hover"/>
 
         </div>
         <div className=' p-4'>
-            <AiFillAlipayCircle className='text-white text-[1.5rem]'/>
+            <AiFillAlipayCircle className='text-white text-2xl'  title="Dashboard"/>
 
         </div>
         <div className='bg-[#12344D] p-4'>
-            <AiFillFunnelPlot className='text-white text-[1.5rem]'/>
+            <AiFillFunnelPlot className='text-white text-2xl' title="Tickets"/>
 
         </div>
         <div className='bg-[#12344D] p-4'>
-            <AiFillMessage className='text-white text-[1.5rem]'/>
+            <AiFillMessage className='text-white text-2xl'/>
 
         </div>
         <div className='bg-[#12344D] p-4'>
-            <AiFillPlusSquare className='text-white text-[1.5rem]'/>
+            <AiFillPlusSquare className='text-white text-2xl'/>
 
         </div>
         <div className='bg-[#12344D] p-4'>
-            <AiFillProfile className='text-white text-[1.5rem]'/>
+            <AiFillProfile className='text-white text-2xl'/>
 
         </div>
         <div className='bg-[#12344D] p-4'>
-            <AiFillIdcard className='text-white text-[1.5rem]'/>
+            <AiFillIdcard className='text-white text-2xl'/>
 
         </div>
         <div className='bg-[#12344D] p-4'>
-            <AiFillSetting className='text-white text-[1.5rem]'/>
+            <AiFillSetting className='text-white text-2xl'  title="Settings"/>
 
         </div>
         </div>

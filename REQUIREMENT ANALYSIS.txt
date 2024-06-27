@@ -1,0 +1,151 @@
+Ticket Management System - Requirement Analysis
+Table of Contents
+
+    Project Overview
+    Stakeholders
+    Functional Requirements
+        3.1 User Authentication and Authorization
+        3.2 Ticket Management
+        3.3 User Management
+        3.4 Notifications
+        3.5 Comments and Attachments
+        3.6 Search and Filtering
+    Non-Functional Requirements
+    User Roles and Permissions
+    Dashboard Requirements
+    User Interface (UI/UX) Requirements
+    Integration Requirements
+    Testing and Quality Assurance
+    Deployment and Hosting
+
+1. Project Overview
+
+The Ticket Management System is designed to facilitate issue resolution and IT support by allowing clients to raise tickets if they encounter any problems with their software system. This system will enable the support team to manage and resolve issues efficiently.
+2. Stakeholders
+
+    Clients
+    Support Team
+    Admin
+    Staff
+
+3. Functional Requirements
+3.1 User Authentication and Authorization
+
+    Users can register and log in to the system.
+    Users have roles with specific permissions: 'Admin', 'Client', 'Support', 'Staff'.
+    Support for password recovery.
+    Social login integration (e.g., Google, Facebook).
+
+3.2 Ticket Management
+
+    Clients can raise new tickets.
+    Ticket statuses include: 'Open', 'In-Progress', 'Resolved', 'Closed'.
+    The support team can view and update ticket statuses.
+    Admin can manage all tickets and assign them to the staff.
+    Ability to filter and sort tickets (by status, priority, client, staff, date).
+
+3.3 User Management
+
+    Admin can manage user accounts (create, update, delete).
+    Staff and clients can update their profiles.
+    Role and permission management:
+        View Roles
+        Add Role
+        Edit Role
+        Remove Role
+
+3.4 Notifications
+
+    Email notifications for ticket updates.
+    In-app notifications for status updates and comments.
+
+3.5 Comments and Attachments
+
+    Users can add comments to tickets.
+    Users can attach files to tickets.
+    View, download, and delete attachments.
+    Moderate comments (edit or delete inappropriate content).
+
+3.6 Search and Filtering
+
+    Admin/Clients/Support can search and filter tickets by status, priority, date, etc.
+
+4. Non-Functional Requirements
+
+    Performance: System should handle concurrent users efficiently.
+    Scalability: Should support future expansion and additional features.
+    Security: Ensure data protection with necessary encryption and access controls.
+    Usability: Intuitive and user-friendly interface.
+
+5. User Roles and Permissions
+Admin
+
+    Manage all tickets.
+    Assign tickets to staff.
+    Manage user accounts.
+    Manage roles and permissions.
+    View all notifications and system activity.
+
+Client
+
+    Raise new tickets.
+    View and update personal tickets.
+    Comment and attach files to tickets.
+    Receive notifications for ticket updates.
+
+Support
+
+    View and update ticket status.
+    Comment on tickets and manage attachments.
+    Receive notifications for assigned tickets.
+
+Staff
+
+    View assigned tickets.
+    Update ticket status.
+    Comment and attach files to tickets.
+    Update personal profile information.
+
+6. Dashboard Requirements
+Admin Dashboard
+
+    Summary of total tickets (open, in-progress, resolved, closed).
+    Recent clients.
+    Recent activities.
+    Recent/new tickets.
+    List of tickets based on priority and pending status.
+
+Client Dashboard
+
+    Summary of client's tickets (open, in-progress, resolved, closed).
+    Recent activity feed showing the latest updates on client tickets.
+    Recent client tickets.
+    Ticket history showing all status changes and assigned staff.
+
+7. User Interface (UI/UX) Requirements
+
+    Responsive design for mobile and desktop devices.
+    Consistent look and feel with branding guidelines.
+    Intuitive navigation and easy access to core functionalities.
+    Forms with validation for user input.
+
+8. Integration Requirements
+
+    Email service integration for notifications.
+    Social login integration (e.g., Google, Facebook).
+    File storage service for attachments (e.g., AWS S3).
+
+9. Testing and Quality Assurance
+
+    Unit testing for individual components.
+    Integration testing for component interactions.
+    Cross-browser testing for compatibility.
+    End-to-end testing for user workflows.
+
+10. Deployment and Hosting
+
+    Automated CI/CD pipelines for testing and deployment.
+    Hosting on cloud services (e.g., AWS, Vercel, Netlify).
+    Monitoring tools to track performance and user interactions.
+
+This requirement analysis provides a detailed description of the system requirements, encompassing both functional and non-functional aspects. It serves as a guide for

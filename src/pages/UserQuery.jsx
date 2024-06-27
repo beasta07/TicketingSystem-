@@ -17,7 +17,7 @@ const UserQuery = () => {
 
   return (
     <div>
-    <div className='mx-80 border border-gray-300 shadow-md my-[4rem]' >
+    <div className='mx-32 border border-gray-300 shadow-md my-16' >
       <div className='text-center'>
         <h1 className='text-4xl mt-[3rem] font-semibold'>Upload Your Query</h1>
       </div>
@@ -26,32 +26,44 @@ const UserQuery = () => {
         <form action='/submit' method='post'>
         <div className='mx-16'>
           <div className='mb-4 flex gap-40'>
-            <label htmlFor='subject' className='block text-lg mt-2 font-semibold text-gray-700'>
-              Subject
+            <label htmlFor='subject' className='block w-52 mt-2 font-semibold text-gray-700'>
+            Ticket Subject *
             </label>
             <input
               id='subject'
               name='subject'
               type='text'
-              className='border border-gray-500 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'
+              className='border border-gray-200 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'
               placeholder='Enter subject'
             />
           </div>
-          <div className='mb-4 flex my-[3rem] gap-[8rem]'>
-            <label htmlFor='description' className='block text-lg font-semibold text-gray-700'>
-              Description
+          <div className='mb-4 flex gap-40'>
+            <label htmlFor='subject' className='block w-52 mt-2 font-semibold text-gray-700'>
+            Email Address *
+            </label>
+            <input
+              id='subject'
+              name='subject'
+              type='email'
+              className='border border-gray-200 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'
+              placeholder='Enter email'
+            />
+          </div>
+          <div className='mb-4 flex gap-40'>
+            <label htmlFor='subject' className='block w-52 mt-2 font-semibold text-gray-700'>
+            Ticket Description    *
             </label>
             <textarea
               id='description'
               name='description'
               rows='6'
-              className='border border-gray-500 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'
+              className='border border-gray-200 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500'
               placeholder='Enter description'
             ></textarea>
           </div>
-          <div className='mb-4 flex my-[3rem] gap-2'>
-            <label htmlFor='upload' className='block text-lg w-80 font-semibold text-gray-700'>
-              Upload your Issue :
+          <div className='mb-4 flex gap-40'>
+            <label htmlFor='upload' className='block w-52 mt-2 font-semibold text-gray-700'>
+            Attachment *
             </label>
             <div className='border border-dashed border-gray-500 bg-[#FBFCFF] px-5 py-6 w-full mx-auto text-center'>
               <div className='flex flex-col items-center'>
