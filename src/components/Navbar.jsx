@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoMdSearch } from 'react-icons/io';
 import { CiChat1 } from "react-icons/ci";
 import { IoIosNotificationsOutline } from "react-icons/io";

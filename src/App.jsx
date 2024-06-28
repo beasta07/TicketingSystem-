@@ -1,5 +1,5 @@
 // import Navbar from "./components/Navbar";
-import CreatePages from "./pages/Admin/CreatePages";
+// import CreatePages from "./pages/Admin/CreatePages";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminTicket from "./pages/AdminTicket";
 import ClientDashboard from "./pages/ClientDashboard";

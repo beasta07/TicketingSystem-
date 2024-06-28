@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import { TiUserAddOutline } from "react-icons/ti";
@@ -133,7 +133,7 @@ const Roles = () => {
                         onChange={handleInputChange}
                         required
                       />
-                      <p className='text-sm text-gray-700'>An image of the person, it's best if it has the same length and height</p>
+                      <p className='text-sm text-gray-700'>An image of the person, it has best if it has the same length and height</p>
                     </div>
                   </div>
                 </div>
@@ -202,14 +202,14 @@ const Roles = () => {
                 </div>
                 <div className='flex items-center justify-between'>
                   <button
-                    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                    className='bg-white border border-gray-200 hover:bg-gray-100  font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
                     type='button'
                     onClick={toggleForm}
                   >
                     Cancel
                   </button>
                   <button
-                    className='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                    className='bg-[#042893] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
                     type='submit'
                   >
                     Save

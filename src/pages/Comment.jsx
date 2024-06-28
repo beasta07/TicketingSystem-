@@ -9,7 +9,7 @@ const commentsData = [
   {
     id: 1,
     title: 'Email Address Change',
-    userImage: '/public/images/user2.jpg',
+    userImage: 'images/user2.jpg',
     userName: 'Emily Garcia',
     reportedVia: 'phone',
     reportedTime: '9 days ago (Tue, 18 Jun 2024 at 9:27 PM)',
