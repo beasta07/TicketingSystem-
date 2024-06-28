@@ -27,7 +27,7 @@ const Roles = () => {
       userName: 'Emily Garcia',
       address: '456 Elm St, Othertown, USA',
       phoneNumber: '+1-987-654-3210',
-      role: 'Customer Support',
+      role: ' Support',
       imageSrc: '/images/user2.jpg',
     },
   ]);

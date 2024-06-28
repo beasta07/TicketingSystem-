@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { FiPhone } from "react-icons/fi";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import { IoReturnUpForward } from "react-icons/io5";
@@ -11,7 +11,6 @@ const commentsData = [
     title: 'Email Address Change',
     userImage: 'images/user2.jpg',
     userName: 'Emily Garcia',
-    reportedVia: 'phone',
     reportedTime: '9 days ago (Tue, 18 Jun 2024 at 9:27 PM)',
     message: `I need to update my email address. I want to know if I'll lose access to my account if I change it.
               I've added quite a few products to my cart and don't want to look for them again.
@@ -50,7 +49,7 @@ const Comment = () => {
               <img src={comment.userImage} className='rounded-xl' />
             </div>
             <div>
-              <h1 className='text-[#042893] font-semibold text-lg'>{comment.userName} <span className='font-normal text-black'>reported via {comment.reportedVia}</span></h1>
+              <h1 className='text-[#042893] font-semibold text-lg'>{comment.userName} <span className='font-normal text-black'></span></h1>
               <p className='text-gray-700 italic'>
                 {comment.reportedTime}
               </p>
@@ -67,7 +66,7 @@ const Comment = () => {
           </div>
           <div className='flex bg-[#F5F7F9] w-full rounded-xl'>
             <div>
-              <img src='/public/images/P.png' className='w-6 py-1 my-2 mx-4' />
+              <img src='images/P.png' className='w-6 py-1 my-2 mx-4' />
             </div>
             <div className='flex'>
               <button onClick={handleReplyClick} className='px-6 bg-white py-1 rounded-md my-2 border border-gray-300 mr-4 hover:bg-gray-50'>

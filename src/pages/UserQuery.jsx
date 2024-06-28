@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { IoMdCloudUpload } from "react-icons/io";
 
 const UserQuery = () => {

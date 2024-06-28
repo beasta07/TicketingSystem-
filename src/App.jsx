@@ -12,10 +12,12 @@ import Comment from "./pages/Comment";
 
 import ConfirmPassword from "./pages/ConfirmPassword";
 import Roles from "./pages/Roles";
+import ProjectLeadDashboard from "./pages/ProjectLeadDashboard";
 
 export default function App() {
   return (
 <div>
+  <ProjectLeadDashboard/>
   <Roles/>
   <Comment/>
   <Login/>
