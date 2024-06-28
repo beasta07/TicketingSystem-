@@ -21,6 +21,7 @@ const Navbar = () => {
             className='bg-white focus:outline-none text-black ml-2 w-32 h-4 font-normal'
           />
         </div >
+        <p>Roles</p>
         <CiChat1 className='text-black text-[1.85rem] mt-1' />
         <IoIosNotificationsOutline className='text-black text-[1.85rem] mt-1' />
         <CiUser className='text-black text-[1.85rem] mt-1' />

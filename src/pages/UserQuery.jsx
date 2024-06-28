@@ -53,6 +53,7 @@ const UserQuery = () => {
             <label htmlFor='subject' className='block w-52 mt-2 font-semibold text-gray-700'>
             Ticket Description    *
             </label>
+            
             <textarea
               id='description'
               name='description'
